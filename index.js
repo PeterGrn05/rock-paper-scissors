@@ -40,7 +40,7 @@ const playGame = () => {
     const yourThrow = yourChoice();
     const cpuThrow = cpuChoice();
     if (yourThrow != undefined) {
-        console.log(`You choose ${yourThrow} & the computer chooses ${cpuThrow}.`);
+        console.log(`You choose ${yourThrow} & the computer chooses ${cpuThrow}!`);
     } else {
         console.log('Change your mind? Come back again!');
     }
